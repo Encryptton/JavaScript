@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript counter</title>
+    <style>
+        .buttonStyle{
+            border-radius: 50%;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript counter</h1>
+    <p>Method onclick</p>
+    <div>
+        <button name="adicionar" onclick="increment()" class="buttonStyle">+</button>
+        <span id="currentNumber">0</span>
+        <button name="subtrair" onclick="decrement()" class="buttonStyle">-</button>
+    </div>
+    <br><br>
+    <p>Method addEventListener</p>
+    <div>
+        <button  class="buttonStyle" id="somar">+</button>
+        <span id="mudarAqui">0</span>
+        <button  class="buttonStyle" id="diminuir">-</button>
+    </div>
+<p id="demo">
+    <script src="assets/js/scripts.js"></script>
+</html>
